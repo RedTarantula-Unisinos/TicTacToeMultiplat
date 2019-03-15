@@ -1,12 +1,19 @@
-<html>
+﻿<html>
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="formatting.css">
     <script src="game.js"></script>
+    <title>TicTacToe Game</title>
 </head>
 <body>
-    <div id="gameBody" class="class_game">
+    <header id="pageHeader" class="class_header">
+        <h1 class="class_header">TicTacToe Game</h1>
+        <p class="class_header">Local multiplayer game of tic tac toe.</p>
+        <hr />
+        <p></p>
+    </header>
 
+    <div id="gameBody" class="class_game">
         <table>
             <tr>
                 <td id="slot1">
@@ -45,8 +52,11 @@
         </table>
     </div>
     <div id="buttons" class="class_buttons">
-        <button>
-            <b>CLEAR</b>
+        <button class="actionButton">
+            <b>NEW GAME</b>
+        </button>
+        <button class="actionButton">
+            <b>CLEAR SCORE</b>
         </button>
         </div>
 
@@ -56,8 +66,12 @@
                 <th colspan="2">SCORE</th>
             </tr>
             <tr>
-                <td id="scoreX">X</td>
-                <td id="scoreO">O</td>
+                <th id="scoreX_label"class="class_scores">X</th>
+                <th id="scoreO_label"class="class_scores">O</th>
+            </tr>
+            <tr>
+                <td id="scoreX_value"class="class_scores">0</td>
+                <td id="scoreO_value"class="class_scores">0</td>
             </tr>
 
         </table>
