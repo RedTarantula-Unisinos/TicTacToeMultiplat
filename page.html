@@ -13,49 +13,51 @@
         <p></p>
     </header>
 
+    <p id="last_game_display" class="class_lastg">First Game</p>
+
     <div id="gameBody" class="class_game">
         <table>
             <tr>
-                <td id="slot1">
-                    <b>S1</b>
+                <td id="slot0" class="class_gameslot" onclick="TakeSlot(0)">
+                    <b > </b>
                 </td>
-                <td id="slot2">
-                    <b>S2</b>
+                <td id="slot1" class="class_gameslot" onclick="TakeSlot(1)">
+                    <b> </b>
                 </td>
-                <td id="slot3">
-                    <b>S3</b>
-                </td>
-            </tr>
-            <tr>
-                <td id="slot4">
-                    <b>S4</b>
-                </td>
-                <td id="slot5">
-                    <b>S5</b>
-                </td>
-                <td id="slot6">
-                    <b>S6</b>
+                <td id="slot2" class="class_gameslot" onclick="TakeSlot(2)">
+                    <b> </b>
                 </td>
             </tr>
             <tr>
-                <td id="slot7">
-                    <b>S7</b>
+                <td id="slot3" class="class_gameslot" onclick="TakeSlot(3)">
+                    <b> </b>
                 </td>
-                <td id="slot8">
-                    <b>S8</b>
+                <td id="slot4" class="class_gameslot" onclick="TakeSlot(4)">
+                    <b> </b>
                 </td>
-                <td id="slot9">
-                    <b>S9</b>
+                <td id="slot5" class="class_gameslot" onclick="TakeSlot(5)">
+                    <b> </b>
+                </td>
+            </tr>
+            <tr>
+                <td id="slot6" class="class_gameslot" onclick="TakeSlot(6)">
+                    <b> </b>
+                </td>
+                <td id="slot7" class="class_gameslot" onclick="TakeSlot(7)">
+                    <b> </b>
+                </td>
+                <td id="slot8" class="class_gameslot" onclick="TakeSlot(8)">
+                    <b> </b>
                 </td>
             </tr>
 
         </table>
     </div>
     <div id="buttons" class="class_buttons">
-        <button class="actionButton">
+        <button class="actionButton" onclick="ClearSlots()">
             <b>NEW GAME</b>
         </button>
-        <button class="actionButton">
+        <button class="actionButton" onclick="ClearScores()">
             <b>CLEAR SCORE</b>
         </button>
         </div>
@@ -73,7 +75,6 @@
                 <td id="scoreX_value"class="class_scores">0</td>
                 <td id="scoreO_value"class="class_scores">0</td>
             </tr>
-
         </table>
     </div>
 

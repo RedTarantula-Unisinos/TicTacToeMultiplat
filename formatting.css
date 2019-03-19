@@ -47,11 +47,16 @@ td {
 	border:3px solid #356256;
     background-color: #E6EDED;
     text-align: center;
-    font-size: 30px;
+    font-size: 70px;
     width: auto;
     height: auto;
     margin: 0px;
     padding: 0px;
+
+}
+
+td.class_gameslot{
+    height: 33% !important;
 }
 
 caption{
@@ -108,6 +113,10 @@ div.class_buttons {
 }
 div.class_scores {
     height: 20%;
+}
+
+p.class_lastg{
+    color: white;
 }
 
 .actionButton {
